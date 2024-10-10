@@ -3,24 +3,26 @@
 #include <iostream>
 using namespace std; 
 
+//For data members and their implementations use the header file
+//for the Code members / methods use the .cpp file
 int main() {
     Dynarr myarr;
-    Dynarr arr2(5);
+    cout<<"Enter the size of the array: ";
+    int size=0;cin>>size;
+    Dynarr arr2(size);
+
     
-    int test;
-    cin>>test;
-    cout<<test;
-    
-    for(int i=0;i<5;i++){
+    for(int i=0;i<size;i++){
         cout<<"Enter the Values for index["<<i<<"] : ";
         int input;
         cin>>input;
         arr2.setValue(i,input);
     }
     cout<<"Printing the array: ";
-    for(int i=0;i<5;i++){
+    for(int i=0;i<size;i++){
         cout<<arr2.getValue(i)<<" ";
     }
+    arr2.allocate(7);
     
 
 }

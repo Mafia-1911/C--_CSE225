@@ -5,12 +5,15 @@ class Dynarr{
 private: 
     int* data;
     int size;
+
 public: 
     Dynarr();
     Dynarr(int);
     ~Dynarr();
     void setValue(int,int);
     int getValue(int);
+//    Task 2
+    void allocate(int);
 
 };
 
