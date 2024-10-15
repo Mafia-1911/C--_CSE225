@@ -1,4 +1,4 @@
-
+// #pragma once can also be used
 #ifndef CSE_225_DAA_DSA_DYNARR_H
 #define CSE_225_DAA_DSA_DYNARR_H
 
