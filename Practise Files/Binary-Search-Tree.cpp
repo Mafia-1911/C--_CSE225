@@ -26,3 +26,13 @@ public:
         Node* newNode=new Node(value);
         root=newNode;
     }
+//////////Insert Function
+//    create newNode
+//    empty tree - place new node in the root
+//    non empty -
+//            make a temp node
+//            Keep checking for , Duplicate (newNode=temp)
+//                                The Left side
+//                                The Right side
+//            if nullptr insert at that position
+//            else move to the next node
