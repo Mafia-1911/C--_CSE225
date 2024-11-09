@@ -67,3 +67,22 @@ public:
             }
         }
     }
+bool contains(int target){
+        if(root== nullptr){ //This line is reduntant , in original implementation you dont need to check for it
+            return false;
+        }
+        Node* temp=root;
+        //traverse
+        while(temp != nullptr){
+            if(temp->value == target){
+                cout<<"Found the value: "<<target;
+                return true;
+            }else if(target <temp->value){
+                temp=temp->right;
+            }else if(target>temp->value){
+                temp=temp->left;
+            }
+        }
+        //came out of the loop meaning value is not in the tree
+        return false;
+    }
