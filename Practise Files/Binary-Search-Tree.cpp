@@ -18,3 +18,11 @@ public:
         }
     };
     Node* root;
+
+    BinarySearchTree(){
+        this->root=nullptr;
+    }
+    BinarySearchTree(int value){
+        Node* newNode=new Node(value);
+        root=newNode;
+    }
