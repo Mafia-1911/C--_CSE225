@@ -86,3 +86,25 @@ bool contains(int target){
         //came out of the loop meaning value is not in the tree
         return false;
     }
+
+
+};
+
+int main(){
+    BinarySearchTree* myBST=new BinarySearchTree();
+    myBST->insert(47);
+    myBST->insert(21);
+    myBST->insert(76);
+    myBST->insert(18);
+    myBST->insert(52);
+    myBST->insert(82);
+
+    myBST->insert(27);
+    cout<<myBST->root->left->right->value<<endl;
+
+    cout<<"Contains 18: "<<myBST->contains(18)<<endl;
+    cout<<"Contains 420: "<<myBST->contains(420)<<endl;
+
+}
+
+
