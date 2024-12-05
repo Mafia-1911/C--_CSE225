@@ -1,3 +1,4 @@
 quiz 3 on recursion 
 bst 
 avl tree
+bst tree
