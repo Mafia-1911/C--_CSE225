@@ -1,3 +1,7 @@
+//Q. Make a binary search and implement recursive Functions to view the nodes through inOrder Travelsal 
+// To search for a particular node 
+// To find the height of the tree
+
 #include <iostream>
 using namespace std;
 
