@@ -8,4 +8,8 @@ public:
      int numItems;
      int start;
 
+     void swap(){};
+     void reheapUp(){};
+     void reheapDown(){};
+     
 }
