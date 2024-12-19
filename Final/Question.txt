@@ -1,0 +1,13 @@
+Describe the 2nd part of the code for DFS 
+Simmilarities and dissimilarities between Binary Tree and Binary Search Tree 
+
+Implications / Uses cases of reheap up and reheap down 
+Whats a priority queue and its underlying data structure 
+How does the Enqueue operation work in priority queue's
+
+
+
+
+
+
+
