@@ -6,7 +6,7 @@ Whats a priority queue and its underlying data structure
 How does the Enqueue operation work in priority queue's
 
 Benifits of Using quadratic probing as hash function
-
+How does the linear probing work and mention its workflow with example
 
 
 
