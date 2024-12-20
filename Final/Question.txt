@@ -9,6 +9,9 @@ Benifits of Using quadratic probing as hash function , Comparison of linear prob
 How does the linear probing work and mention its workflow with example
 How does quadrating probing work , mention the workflow with an example
 
+MCQ 
+q. A hash map at worst acts like which data structure 
+
 
 
 
