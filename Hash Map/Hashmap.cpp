@@ -1,1 +1,2 @@
-
+//Linear Probing 
+// Quadratic probing
